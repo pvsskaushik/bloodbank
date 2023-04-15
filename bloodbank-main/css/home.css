@@ -1,0 +1,35 @@
+/* Style for section headings */
+section h2,
+.container h3 {
+  color: #331919;
+  font-size: 28px;
+  text-align: center;
+  background-color: rgb(219, 95, 95);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Style for paragraph text */
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* Style for images in table */
+table img {
+  margin-right: 10px;
+}
+
+/* Style for success and danger icons in table */
+table img[src$="do.png"] {
+  background-color: #4caf50;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+table img[src$="dont.png"] {
+  background-color: #f44336;
+  border-radius: 50%;
+  padding: 5px;
+}

@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: rgb(61, 20, 20);
+  /* background-color: rgba(248, 199, 199, 0.703); */
+  background-image: url(backgroun.jpg);
+}
+
+/* style the header */
+.header {
+  background-color: #0b090979;
+  color: rgba(188, 75, 75, 0.989);
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.header h1 {
+  margin: 0;
+  color: white;
+}
+
+/* style the navigation bar */
+.navbar {
+  background-color: #0b090979;
+  overflow: hidden;
+  display: block;
+  justify-content: center;
+  padding: 18px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+/* Style for navbar links */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 50px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.navbar a:hover {
+  background-color: red;
+  border-radius: 5px;
+}
+
+/* Style for main section */
+.main {
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px;
+  background-color: #eac3c3e0;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Donor list section */
+#donor-list {
+  margin-top: 20px;
+}
+
+#donor-list h2 {
+  color: #010101;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#donor-list label {
+  font-weight: bold;
+}
+
+#donor-list select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+#donor-list button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#donor-list button:hover {
+  background-color: #c82333;
+}
+
+#donor-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#donor-table th,
+#donor-table td {
+  text-align: left;
+  padding: 8px;
+}
+
+#donor-table th {
+  background-color: #343a40;
+  color: white;
+}
+
+#donor-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#donor-table tr:hover {
+  background-color: #ddd;
+}

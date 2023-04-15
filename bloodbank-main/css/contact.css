@@ -1,0 +1,36 @@
+/* Styles for the contact form */
+#contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  resize: none;
+}
+
+#contact-form input[type="submit"] {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#contact-form input[type="submit"]:hover {
+  background-color: #c82333;
+}

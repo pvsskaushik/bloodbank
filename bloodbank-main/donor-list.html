@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blood Bank Management System</title>
+    <link rel="stylesheet" type="text/css" href="css\donorlist.css" />
+    <link rel="stylesheet" href="css\style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Blood Bank Management System</h1>
+    </div>
+    <br />
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="donor-registration.html">Donate</a>
+      <a href="donor-list.html">Donor List</a>
+      <a href="contact-us.html">Contact Us</a>
+    </div>
+    <div class="main">
+      <section id="donor-list">
+        <h2>Donor List</h2>
+        <!-- HTML code for the search button -->
+        <label for="search-blood-group">Search donors by blood group:</label>
+        <select id="search-blood-group">
+          <option value="">--Select--</option>
+          <option value="A+">A+</option>
+          <option value="A-">A-</option>
+          <option value="B+">B+</option>
+          <option value="B-">B-</option>
+          <option value="AB+">AB+</option>
+          <option value="AB-">AB-</option>
+          <option value="O+">O+</option>
+          <option value="O-">O-</option>
+        </select>
+        <button id="search-button">Search</button>
+        <table id="donor-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Phone</th>
+              <th>Blood Group</th>
+              <th>Location</th>
+            </tr>
+          </thead>
+          <tbody id="donor-list-body">
+            <!-- Donor list data will be dynamically added here -->
+          </tbody>
+        </table>
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2023 Blood Bank Management System</p>
+    </footer>
+    <!-- <script src="data.js"></script> -->
+    <script src="js\donorList.js"></script>
+  </body>
+</html>
